@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 div {
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 table {
   margin: 16px;
@@ -12,12 +12,13 @@ table {
 }
 td,
 th {
-  padding: 4px;
+  /* padding: 4px; */
   border: 1px solid black;
   text-align: right;
+}
+tr {
   line-height: 40px;
 }
-
 tbody > tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
