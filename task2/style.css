@@ -4,21 +4,21 @@
 div {
   overflow-x: auto;
 }
-
 table {
-  margin: 16px;
   width: 500px;
-  border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 16px;
 }
-tr,
+table,
+td,
 th {
-  line-height: 31px;
+  border-collapse: collapse;
+  border: 1px solid black;
 }
 td,
 th {
+  line-height: 40px;
   padding: 4px;
-  border: 1px solid black;
   text-align: right;
 }
 
