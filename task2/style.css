@@ -4,18 +4,21 @@
 div {
   overflow-x: auto;
 }
+
 table {
   margin: 16px;
   width: 500px;
-
+  /* line-height: 40px; */
   border-collapse: collapse;
+}
+tr {
+  line-height: 40px;
 }
 td,
 th {
   padding: 4px;
   border: 1px solid black;
   text-align: right;
-  line-height: 40px;
 }
 
 tbody > tr:nth-child(odd) {
@@ -25,9 +28,8 @@ tbody > tr:hover {
   background-color: #aaa;
   color: white;
 }
-th {
+thead {
   background-color: aqua;
-  font-weight: 700;
 }
 caption {
   margin-bottom: 8px;
