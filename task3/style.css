@@ -8,6 +8,7 @@ td {
   height: 50px;
   text-align: center;
   padding: 0;
+  box-sizing: border-box;
 }
 /* .white {
   background-color: white;
@@ -27,11 +28,12 @@ tbody > tr > td:last-child {
   border: none !important;
 }
 tbody > .black > td:nth-child(odd) {
-  background-color: black;
+  background-color: white;
 }
 tbody > .white > td:nth-child(even) {
-  background-color: black;
+  background-color: white;
 }
 tbody > tr > td {
+  background-color: black;
   border: 1px solid;
 }
