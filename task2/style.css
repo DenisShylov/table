@@ -15,9 +15,11 @@ th {
   border-collapse: collapse;
   border: 1px solid black;
 }
+tr {
+  line-height: 40px;
+}
 td,
 th {
-  line-height: 40px;
   padding: 4px;
   text-align: right;
 }
