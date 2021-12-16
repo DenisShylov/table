@@ -28,12 +28,12 @@ tbody > tr > td:last-child {
   border: none !important;
 }
 tbody > .black > td:nth-child(odd) {
-  background-color: white;
+  background-color: black;
 }
 tbody > .white > td:nth-child(even) {
-  background-color: white;
+  background-color: black;
 }
 tbody > tr > td {
-  background-color: black;
+  background-color: white;
   border: 1px solid;
 }
