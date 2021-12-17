@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 table {
   border: 1px solid black;
   margin: 16px;
@@ -35,4 +38,8 @@ td:last-child {
 tr:first-child > td {
   background-color: white !important;
   border: none;
+}
+tbody > tr > td {
+  background-color: white;
+  border: 1px solid;
 }
